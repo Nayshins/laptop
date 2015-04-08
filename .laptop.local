@@ -1,0 +1,14 @@
+#!/bin/sh
+
+brew_tap 'caskrom/cask'
+brew_install_or_upgrade 'brew_cask'
+
+brew cask install google-chrome
+brew cask install dropbox
+brew cask install virtualbox
+brew cask install vagrant
+brew cask install iterm2
+brew cask install slack
+brew cask install alfred
+brew cask install caffeine
+brew cask install flux
